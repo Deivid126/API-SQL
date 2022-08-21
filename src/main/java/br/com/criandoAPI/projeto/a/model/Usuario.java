@@ -12,14 +12,13 @@ import javax.persistence.Table;
 public class Usuario {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	
 	@Column(name = "id")
 	private Integer id;
 	
 	@Column(name = "nome", length= 200, nullable = true)
 	private String nome;
 	
-	@Column(name = "email", length= 50, nullable = true)
+	@Column(name = "email", length = 50, nullable = true)
 	private String email;
 	
 	@Column(name = "senha", columnDefinition= "TEXT" , nullable = true)
