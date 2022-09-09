@@ -1,5 +1,5 @@
 # API-SQL
-API que interage com um banco de dados SQL.
+API em Java utilizando o SpringBoot conectada com um banco de dados SQL.
 
 # Funcionalidade
 
